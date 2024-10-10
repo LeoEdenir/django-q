@@ -9,7 +9,7 @@ from django.utils.html import format_html
 from django.utils.translation import gettext_lazy as _
 
 # External
-from picklefield import PickledObjectField
+from picklefield.fields import PickledObjectField
 from picklefield.fields import dbsafe_decode
 
 # Local
